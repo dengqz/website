@@ -1,5 +1,5 @@
 <!--{
-	"Title": "Documentation",
+	"Title": "文档",
 	"Template": true
 }-->
 
@@ -226,36 +226,35 @@ $ go install golang.org/x/website/tour@latest
 <h2 id="blog">来自 Go 博客</h2>
 <p><a href="https://blog.golang.org/">Go 项目的官方博客</a>，提供 Go 团队和嘉宾的新闻和深度文章。</p>
 
-<h4>Language</h4>
+<h4>语言</h4>
 <ul>
-    <li><a href="/blog/json-rpc-tale-of-interfaces">JSON-RPC: a tale of interfaces</a></li>
-    <li><a href="/blog/gos-declaration-syntax">Go's Declaration Syntax</a></li>
-    <li><a href="/blog/defer-panic-and-recover">Defer, Panic, and Recover</a></li>
-    <li><a href="/blog/go-concurrency-patterns-timing-out-and">Go Concurrency Patterns: Timing out, moving on</a></li>
-    <li><a href="/blog/go-slices-usage-and-internals">Go Slices: usage and internals</a></li>
-    <li><a href="/blog/gif-decoder-exercise-in-go-interfaces">A GIF decoder: an exercise in Go interfaces</a></li>
-    <li><a href="/blog/error-handling-and-go">Error Handling and Go</a></li>
-    <li><a href="/blog/organizing-go-code">Organizing Go code</a></li>
+    <li><a href="/blog/json-rpc-tale-of-interfaces">JSON-RPC: 接口的故事</a></li>
+    <li><a href="/blog/gos-declaration-syntax">Go's 声明语法</a></li>
+    <li><a href="/blog/defer-panic-and-recover">推迟、恐慌和恢复</a></li>
+    <li><a href="/blog/go-concurrency-patterns-timing-out-and">Go 并发模式：超时，继续</a></li>
+    <li><a href="/blog/go-slices-usage-and-internals">Go Slices：用法和内部结构</a></li>
+    <li><a href="/blog/gif-decoder-exercise-in-go-interfaces">GIF 解码器：Go 接口练习</a></li>
+    <li><a href="/blog/error-handling-and-go">错误处理和 Go</a></li>
+    <li><a href="/blog/organizing-go-code">组织 Go 代码</a></li>
 </ul>
 
-<h4>Packages</h4>
+<h4>包</h4>
 <ul>
-    <li><a href="/blog/json-and-go">JSON and Go</a> - using the <a href="/pkg/encoding/json/">json</a> package.</li>
-    <li><a href="/blog/gobs-of-data">Gobs of data</a> - the design and use of the <a href="/pkg/encoding/gob/">gob</a>
-        package.
+    <li><a href="/blog/json-and-go">JSON and Go</a> - 使用 <a href="/pkg/encoding/json/">json</a> package.</li>
+    <li><a href="/blog/gobs-of-data">Gobs of data</a> - 的设计和使用 <a href="/pkg/encoding/gob/">gob</a>
+        包
     </li>
-    <li><a href="/blog/laws-of-reflection">The Laws of Reflection</a> - the fundamentals of the <a href="/pkg/reflect/">reflect</a>
-        package.
+    <li><a href="/blog/laws-of-reflection">反射定律</a> - 的基本原理 <a href="/pkg/reflect/">reflect</a>
+        包
     </li>
-    <li><a href="/blog/go-image-package">The Go image package</a> - the fundamentals of the <a
+    <li><a href="/blog/go-image-package">Go 镜像包</a> - 的基本原理 <a
             href="/pkg/image/">image</a> package.
     </li>
-    <li><a href="/blog/go-imagedraw-package">The Go image/draw package</a> - the fundamentals of the <a
-            href="/pkg/image/draw/">image/draw</a> package.
+    <li><a href="/blog/go-imagedraw-package">Go image/draw 包</a> - <a href="/pkg/image/draw/">image/draw</a> 包的基本原理。
     </li>
 </ul>
 
-<h4>Modules</h4>
+<h4>模块</h4>
 <ul>
     <li><a href="/blog/using-go-modules">使用 Go 模块</a> - 在简单项目中使用模块的介绍。
     </li>
@@ -263,81 +262,70 @@ $ go install golang.org/x/website/tour@latest
     </li>
     <li><a href="/blog/publishing-go-modules">发布 Go 模块</a> - 如何向其他人提供新版本的模块。
     </li>
-    <li><a href="/blog/v2-go-modules">Go Modules: v2 and Beyond</a> - 创建和发布主要版本 2 及更高版本。
+    <li><a href="/blog/v2-go-modules">Go 模块：v2 及更高版本</a> - 创建和发布主要版本 2 及更高版本。
     </li>
-    <li><a href="/blog/module-compatibility">Keeping Your Modules Compatible</a> - 如何使您的模块与之前的小补丁版本兼容。
+    <li><a href="/blog/module-compatibility">保持模块兼容</a> - 如何使您的模块与之前的小补丁版本兼容。
     </li>
 </ul>
 
-<h4>Tools</h4>
+<h4>工具</h4>
 <ul>
-    <li><a href="/doc/articles/go_command.html">About the Go command</a> - why we wrote it, what it is, what it's not,
-        and how to use it.
+    <li><a href="/doc/articles/go_command.html">关于 Go 命令</a> - 我们为什么写它，它是什么，它不是什么，以及如何使用它。
     </li>
-    <li><a href="/doc/gdb">Debugging Go Code with GDB</a></li>
-    <li><a href="/doc/articles/race_detector.html">Data Race Detector</a> - a manual for the data race detector.</li>
-    <li><a href="/doc/asm">A Quick Guide to Go's Assembler</a> - an introduction to the assembler used by Go.</li>
-    <li><a href="/blog/c-go-cgo">C? Go? Cgo!</a> - linking against C code with <a href="/cmd/cgo/">cgo</a>.</li>
-    <li><a href="/blog/godoc-documenting-go-code">Godoc: documenting Go code</a> - writing good documentation for <a
+    <li><a href="/doc/gdb">使用 GDB 调试 Go 代码</a></li>
+    <li><a href="/doc/articles/race_detector.html">数据竞争检测器</a> - 数据竞争检测器的手册。</li>
+    <li><a href="/doc/asm">Go 汇编程序的快速指南</a> - Go 使用的汇编器的介绍。</li>
+    <li><a href="/blog/c-go-cgo">C? Go? Cgo!</a> - 与 C 代码链接 <a href="/cmd/cgo/">cgo</a>.</li>
+    <li><a href="/blog/godoc-documenting-go-code">Godoc：记录 Go 代码</a> - 编写好的文档 <a
             href="/cmd/godoc/">godoc</a>.
     </li>
-    <li><a href="/blog/profiling-go-programs">Profiling Go Programs</a></li>
+    <li><a href="/blog/profiling-go-programs">分析 Go 程序</a></li>
     <li><a href="/blog/race-detector">Introducing the Go Race Detector</a> - an introduction to the race detector.</li>
 </ul>
 
 <h2 id="wiki">Wiki</h2>
 <p>
-    The <a href="/wiki">Go Wiki</a>, maintained by the Go community, includes articles about the Go language, tools, and
-    other resources.
+    The <a href="/wiki">Go Wiki</a>, 由 Go 社区维护，包括有关 Go 语言、工具和其他资源的文章。
 </p>
 
 <p id="learn_more">
-    See the <a href="/wiki/Learn">Learn</a> page at the <a href="/wiki">Wiki</a>
-    for more Go learning resources.
+    见 <a href="/wiki/Learn">学习</a> 页面在 <a href="/wiki">Wiki</a>
+    获取更多 Go 学习资源。
 </p>
 
-<h2 id="talks">Talks</h2>
+<h2 id="talks">会谈</h2>
 
 <img class="gopher" src="/doc/gopher/talks.png" alt=""/>
 
-<h3 id="video_tour_of_go"><a href="https://research.swtch.com/gotour">A Video Tour of Go</a></h3>
+<h3 id="video_tour_of_go"><a href="https://research.swtch.com/gotour">Go 视频之旅</a></h3>
 <p>
-    Three things that make Go fast, fun, and productive:
-    interfaces, reflection, and concurrency. Builds a toy web crawler to
-    demonstrate these.
+    使 Go 变得快速、有趣和高效的三件事：
+    接口、反射和并发。构建一个玩具网络爬虫来演示这些。
 </p>
 
-<h3 id="go_code_that_grows"><a href="https://vimeo.com/53221560">Code that grows with grace</a></h3>
+<h3 id="go_code_that_grows"><a href="https://vimeo.com/53221560">优雅成长的代码</a></h3>
 <p>
-    One of Go's key design goals is code adaptability; that it should be easy to take a simple design and build upon it
-    in a clean and natural way. In this talk Andrew Gerrand describes a simple "chat roulette" server that matches pairs
-    of incoming TCP connections, and then use Go's concurrency mechanisms, interfaces, and standard library to extend it
-    with a web interface and other features. While the function of the program changes dramatically, Go's flexibility
-    preserves the original design as it grows.
+    Go 的主要设计目标之一是代码适应性；应该很容易采用简单的设计并以干净自然的方式构建它。在本次演讲中，Andrew Gerrand 描述了一个简单的“聊天轮盘赌”服务器，它匹配传入的 TCP 连接对，然后使用 Go
+    的并发机制、接口和标准库来扩展它的 Web 界面和其他功能。虽然程序的功能发生了巨大的变化，但 Go 的灵活性随着它的增长而保留了原始设计。
 </p>
 
-<h3 id="go_concurrency_patterns"><a href="https://www.youtube.com/watch?v=f6kdp27TYZs">Go Concurrency Patterns</a></h3>
+<h3 id="go_concurrency_patterns"><a href="https://www.youtube.com/watch?v=f6kdp27TYZs">Go 并发模式</a></h3>
 <p>
-    Concurrency is the key to designing high performance network services. Go's concurrency primitives (goroutines and
-    channels) provide a simple and efficient means of expressing concurrent execution. In this talk we see how tricky
-    concurrency problems can be solved gracefully with simple Go code.
+    并发是设计高性能网络服务的关键。 Go 的并发原语（goroutine 和通道）提供了一种简单有效的方式来表达并发执行。在本次演讲中，我们将看到如何使用简单的 Go 代码优雅地解决棘手的并发问题。
 </p>
 
-<h3 id="advanced_go_concurrency_patterns"><a href="https://www.youtube.com/watch?v=QDDwwePbDtw">Advanced Go Concurrency
-    Patterns</a></h3>
+<h3 id="advanced_go_concurrency_patterns"><a href="https://www.youtube.com/watch?v=QDDwwePbDtw">高级 Go 并发模式</a></h3>
 <p>
-    This talk expands on the <i>Go Concurrency Patterns</i> talk to dive deeper into Go's concurrency primitives.
+    本演讲扩展了 <i>Go 并发模式</i> 演讲，以深入了解 Go 的并发原语。
 </p>
 
-<h4 id="talks_more">More</h4>
+<h4 id="talks_more">更多</h4>
 <p>
-    See the <a href="/talks">Go Talks site</a> and <a href="/wiki/GoTalks">wiki page</a> for more Go talks.
+    请参阅<a href="/talks">Go Talks site</a> 和 <a href="/wiki/GoTalks">wiki page</a> 了解更多 Go 演讲。
 </p>
 
-<h2 id="nonenglish">Non-English Documentation</h2>
+<h2 id="nonenglish">非英语文档</h2>
 
 <p>
-    See the <a href="/wiki/NonEnglish">NonEnglish</a> page
-    at the <a href="/wiki">Wiki</a> for localized
-    documentation.
+    有关本地化文档，请参阅 <a href="/wiki">Wiki</a> 上的 <a href="/wiki/NonEnglish">非英语</a> 页面。
 </p>

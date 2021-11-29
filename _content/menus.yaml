@@ -1,59 +1,59 @@
 main:
-  - name: Why Go
+  - name: 为什么 Go
     url: /solutions/
-  - name: Get Started
+  - name: 开始
     url: /learn/
-  - name: Docs
+  - name: 文档
     url: /doc/
-  - name: Packages
+  - name: 包
     url: https://pkg.go.dev
-  - name: Play
+  - name: 玩
     url: /play/
-  - name: Blog
+  - name: 博客
     url: /blog/
 
 footer:
-  - name: Why Go
+  - name: 为什么 Go
     url: /solutions/
     children:
-    - name: Use Cases
+    - name: 用例
       url: /solutions/#use-cases
-    - name: Case Studies
+    - name: 实例探究
       url: /solutions/#case-studies
 
-  - name: Get Started
+  - name: 开始
     url: /learn/
     children:
-    - name: Playground
+    - name: 操场
       url: /play
-    - name: Tour
+    - name: 旅行
       url: /tour/
     - name: Stack Overflow
       url: https://stackoverflow.com/questions/tagged/go?tab=Newest
 
-  - name: Packages
+  - name: 包
     url: https://pkg.go.dev
 
-  - name: About
+  - name: 关于
     url: /about
     children:
-    - name: Download
+    - name: 下载
       url: /dl/
-    - name: Blog
+    - name: 博客
       url: /blog/
-    - name: Issue Tracker
+    - name: 问题追踪器
       url: https://github.com/golang/go/issues
-    - name: Release Notes
+    - name: 发行说明
       url: /doc/devel/release
-    - name: Brand Guidelines
+    - name: 品牌指南
       url: https://blog.golang.org/go-brand
-    - name: Code of Conduct
+    - name: 行为守则
       url: /conduct
 
-  - name: Connect
+  - name: 连接
     url: https://www.twitter.com/golang
     children:
-    - name: Twitter
+    - name: 推特
       url: https://www.twitter.com/golang
     - name: GitHub
       url: https://github.com/golang
@@ -63,5 +63,5 @@ footer:
       url: https://reddit.com/r/golang
     - name: Meetup
       url: https://www.meetup.com/pro/go
-    - name: Golang Weekly
+    - name: Golang 周刊
       url: https://golangweekly.com/
