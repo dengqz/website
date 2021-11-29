@@ -3,41 +3,40 @@
 	"Template": true
 }-->
 
-<h2>Introduction</h2>
+<h2>介绍</h2>
 
 <p>
-Covered in this tutorial:
+本教程涵盖：
 </p>
 <ul>
-<li>Creating a data structure with load and save methods</li>
-<li>Using the <code>net/http</code> package to build web applications
-<li>Using the <code>html/template</code> package to process HTML templates</li>
-<li>Using the <code>regexp</code> package to validate user input</li>
-<li>Using closures</li>
+<li>使用加载和保存方法创建数据结构</li>
+<li>使用 <code>net/http</code> 包构建 Web 应用程序
+<li>使用 <code>html/template</code> 包用于处理 HTML 模板</li>
+<li>使用 <code>regexp</code> 包用于验证用户输入</li>
+<li>使用闭包</li>
 </ul>
 
 <p>
-Assumed knowledge:
+假设知识：
 </p>
 <ul>
-<li>Programming experience</li>
-<li>Understanding of basic web technologies (HTTP, HTML)</li>
-<li>Some UNIX/DOS command-line knowledge</li>
+<li>编程经验</li>
+<li>了解基本的网络技术（HTTP、HTML）</li>
+<li>一些UNIX/DOS命令行知识</li>
 </ul>
 
-<h2>Getting Started</h2>
+<h2>入门</h2>
 
 <p>
-At present, you need to have a FreeBSD, Linux, macOS, or Windows machine to run Go.
-We will use <code>$</code> to represent the command prompt.
+目前，你需要有 FreeBSD、Linux、macOS 或 Windows 机器才能运行 Go。我们将使用 <code>$</code> 来表示命令提示符。
 </p>
 
 <p>
-Install Go (see the <a href="/doc/install">Installation Instructions</a>).
+安装Go (见 <a href="/doc/install">安装说明</a>).
 </p>
 
 <p>
-Make a new directory for this tutorial inside your <code>GOPATH</code> and cd to it:
+在你的 <code>GOPATH</code> 中为本教程创建一个新目录，然后 cd 到它：
 </p>
 
 <pre>
@@ -46,8 +45,7 @@ $ cd gowiki
 </pre>
 
 <p>
-Create a file named <code>wiki.go</code>, open it in your favorite editor, and
-add the following lines:
+创建一个名为 <code>wiki.go</code> 的文件，在你喜欢的编辑器中打开它，并添加以下几行：
 </p>
 
 <pre>
@@ -60,12 +58,10 @@ import (
 </pre>
 
 <p>
-We import the <code>fmt</code> and <code>os</code> packages from the Go
-standard library. Later, as we implement additional functionality, we will
-add more packages to this <code>import</code> declaration.
+我们从 Go 标准库中导入 <code>fmt</code> 和 <code>os</code> 包。稍后，随着我们实现附加功能，我们将向这个 <code>import</code> 声明添加更多包。
 </p>
 
-<h2>Data Structures</h2>
+<h2>数据结构</h2>
 
 <p>
 Let's start by defining the data structures. A wiki consists of a series of

@@ -4,305 +4,296 @@
 }-->
 
 <p>
-The Go programming language is an open source project to make programmers more
-productive.
+    Go 编程语言是一个开源项目，旨在提高程序员的工作效率。
 </p>
 
 <p>
-Go is expressive, concise, clean, and efficient. Its concurrency
-mechanisms make it easy to write programs that get the most out of multicore
-and networked machines, while its novel type system enables flexible and
-modular program construction. Go compiles quickly to machine code yet has the
-convenience of garbage collection and the power of run-time reflection. It's a
-fast, statically typed, compiled language that feels like a dynamically typed,
-interpreted language.
+    Go 具有表现力、简洁、干净和高效。它的并发机制可以轻松编写程序，充分利用多核和联网机器，而其新颖的类型系统可以实现灵活和模块化的程序构建。Go
+    可以快速编译为机器代码，但具有垃圾收集的便利性和运行时反射的能力。它是一种快速、静态类型的编译语言，感觉就像是一种动态类型的解释型语言。
 </p>
 
 <div id="manual-nav"></div>
 
-<h2 id="getting-started">Getting started</h2>
+<h2 id="getting-started">入门</h2>
 
-<h3 id="installing"><a href="/doc/install">Installing Go</a></h3>
+<h3 id="installing"><a href="/doc/install">安装 Go</a></h3>
 <p>
-Instructions for downloading and installing Go.
+    下载和安装 Go 的说明。
 </p>
 
-<h3 id="get-started-tutorial"><a href="/doc/tutorial/getting-started.html">Tutorial: Getting started</a></h3>
+<h3 id="get-started-tutorial"><a href="/doc/tutorial/getting-started.html">教程：入门</a></h3>
 <p>
-A brief Hello, World tutorial to get started. Learn a bit about Go code, tools, packages, and modules.
+    一个简短的 Hello, World 入门教程。了解一些关于 Go 代码、工具、包和模块的知识。
 </p>
 
-<h3 id="create-module-tutorial"><a href="/doc/tutorial/create-module.html">Tutorial: Create a module</a></h3>
+<h3 id="create-module-tutorial"><a href="/doc/tutorial/create-module.html">教程：创建模块</a></h3>
 <p>
-A tutorial of short topics introducing functions, error handling, arrays, maps, unit testing, and compiling.
+    介绍函数、错误处理、数组、映射、单元测试和编译的简短主题教程。
 </p>
 
-<h3 id="web-service-gin-tutorial"><a href="/doc/tutorial/web-service-gin.html">Tutorial: Developing a RESTful
-    API with Go and Gin</a></h3>
+<h3 id="web-service-gin-tutorial"><a href="/doc/tutorial/web-service-gin.html">教程：使用 Go 和 Gin 开发 RESTful API</a></h3>
 <p>
-Introduces the basics of writing a RESTful web service API with Go and the Gin Web Framework.
+    介绍使用 Go 和 Gin Web 框架编写 RESTful Web 服务 API 的基础知识。
 </p>
 
-<h3 id="writing-web-applications"><a href="/doc/articles/wiki/">Writing Web Applications</a></h3>
+<h3 id="writing-web-applications"><a href="/doc/articles/wiki/">编写 Web 应用程序</a></h3>
 <p>
-Building a simple web application.
+    构建一个简单的 Web 应用程序。
 </p>
 
-<h3 id="code"><a href="code.html">How to write Go code</a></h3>
+<h3 id="code"><a href="code.html">如何编写 Go 代码</a></h3>
 <p>
-This doc explains how to develop a simple set of Go packages inside a module,
-and it shows how to use the <a href="/cmd/go/"><code>go</code>&nbsp;command</a>
-to build and test packages.
+    本文档解释了如何在模块内开发一组简单的 Go 包，
+    它展示了如何使用 <a href="/cmd/go/"><code>go</code>&nbsp;命令</a>
+    构建和测试包。
 </p>
 
 <img class="gopher" src="/doc/gopher/doc.png" alt=""/>
 
-<h3 id="go_tour"><a href="/tour/">A Tour of Go</a></h3>
+<h3 id="go_tour"><a href="/tour/">Go之旅</a></h3>
 <p>
-An interactive introduction to Go in three sections.
-The first section covers basic syntax and data structures; the second discusses
-methods and interfaces; and the third introduces Go's concurrency primitives.
-Each section concludes with a few exercises so you can practice what you've
-learned. You can <a href="/tour/">take the tour
-online</a> or install it locally with:
+    Go 的交互式介绍分为三个部分。
+    第一部分涵盖基本语法和数据结构；第二部分讨论方法和接口；第三部分介绍了 Go 的并发原语。
+    每个部分都以一些练习结束，这样您就可以练习所学。您可以<a href="/tour/">在线游览</a>或在本地安装：
 </p>
 <pre>
 $ go install golang.org/x/website/tour@latest
 </pre>
 <p>
-This will place the <code>tour</code> binary in your
-<a href="/cmd/go/#hdr-GOPATH_and_Modules">GOPATH</a>'s <code>bin</code> directory.
+    这会将 <code>tour</code> 二进制文件放在 <a href="/cmd/go/#hdr-GOPATH_and_Modules">GOPATH</a> 的 <code>bin</code> 目录中。
 </p>
 
-<h2 id="learning">Using and understanding Go</h2>
+<h2 id="learning">使用和理解 Go</h2>
 
-<h3 id="effective_go"><a href="effective_go.html">Effective Go</a></h3>
+<h3 id="effective_go"><a href="effective_go.html">有效的 Go</a></h3>
 <p>
-A document that gives tips for writing clear, idiomatic Go code.
-A must read for any new Go programmer. It augments the tour and
-the language specification, both of which should be read first.
+    一份文档，提供了编写清晰、惯用的 Go 代码的技巧。
+    任何新的 Go 程序员都必须阅读。 它增加了游览和语言规范，这两者都应该先阅读。
 </p>
 
-<h3 id="editors"><a href="editors.html">Editor plugins and IDEs</a></h3>
+<h3 id="editors"><a href="editors.html">编辑器插件和 IDE</a></h3>
 <p>
-A document that summarizes commonly used editor plugins and IDEs with
-Go support.
+    一个总结了常用编辑器插件和支持 Go 的 IDE 的文档。
 </p>
 
-<h3 id="diagnostics"><a href="/doc/diagnostics.html">Diagnostics</a></h3>
+<h3 id="diagnostics"><a href="/doc/diagnostics.html">诊断</a></h3>
 <p>
-Summarizes tools and methodologies to diagnose problems in Go programs.
+    总结了在 Go 程序中诊断问题的工具和方法。
 </p>
 
-<h3 id="dependencies"><a href="/doc/modules/managing-dependencies">Managing dependencies</a></h3>
+<h3 id="dependencies"><a href="/doc/modules/managing-dependencies">管理依赖</a></h3>
 <p>
-When your code uses external packages, those packages (distributed as modules) become dependencies.
+    当您的代码使用外部包时，这些包（作为模块分发）成为依赖项。
 </p>
 
-<h3 id="data-access">Accessing databases</h3>
+<h3 id="data-access">访问数据库</h3>
 
-<h4 id="data-access-tutorial"><a href="/doc/tutorial/database-access">Tutorial: Accessing a relational database</a></h4>
+<h4 id="data-access-tutorial"><a href="/doc/tutorial/database-access">教程：访问关系数据库</a></h4>
 <p>
-Introduces the basics of accessing a relational database using Go and the
-<code>database/sql</code> package in the standard library.
+    介绍使用 Go 和标准库中的 <code>database/sql</code> 包访问关系数据库的基础知识。
 </p>
 
-<h4 id="accessing-databases"><a href="/doc/database/index">Accessing relational databases</a></h4>
+<h4 id="accessing-databases"><a href="/doc/database/index">访问关系数据库</a></h4>
 <p>
-An overview of Go's data access features.
+    Go 的数据访问功能概述。
 </p>
 
-<h4 id="open-handle"><a href="/doc/database/open-handle">Opening a database handle</a></h4>
+<h4 id="open-handle"><a href="/doc/database/open-handle">打开数据库句柄</a></h4>
 <p>
-You use the Go database handle to execute database operations. Once you open a
-handle with database connection properties, the handle represents a connection
-pool it manages on your behalf.
+    您使用 Go 数据库句柄来执行数据库操作。打开带有数据库连接属性的句柄后，该句柄代表它代表您管理的连接池。
 </p>
 
-<h4 id="change-data"><a href="/doc/database/change-data">Executing SQL statements that don't return data</a></h4>
+<h4 id="change-data"><a href="/doc/database/change-data">执行不返回数据的 SQL 语句</a></h4>
 <p>
-For SQL operations that might change the database, including SQL
-<code>INSERT</code>, <code>UPDATE</code>, and <code>DELETE</code>, you use
-<code>Exec</code> methods.
+    对于可能更改数据库的 SQL 操作，包括 SQL <code>INSERT</code>、<code>UPDATE</code> 和 <code>DELETE</code>，您可以使用 <code>Exec</code> 方法。
 </p>
 
-<h4 id="querying"><a href="/doc/database/querying">Querying for data</a></h4>
+<h4 id="querying"><a href="/doc/database/querying">查询数据</a></h4>
 <p>
-For <code>SELECT</code> statements that return data from a query, using the
-<code>Query</code> or <code>QueryRow</code> method.
+    对于从查询返回数据的 <code>SELECT</code> 语句，使用 <code>Query</code> 或 <code>QueryRow</code> 方法。
 </p>
 
-<h4 id="prepared-statements"><a href="/doc/database/prepared-statements">Using prepared statements</a></h4>
+<h4 id="prepared-statements"><a href="/doc/database/prepared-statements">使用准备好的语句</a></h4>
 <p>
-Defining a prepared statement for repeated use can help your code run a bit
-faster by avoiding the overhead of re-creating the statement each time your
-code performs the database operation.
+    定义准备好的语句以供重复使用可以避免每次代码执行数据库操作时重新创建语句的开销，从而帮助您的代码运行得更快一些。
 </p>
 
-<h4 id="execute-transactions"><a href="/doc/database/execute-transactions">Executing transactions</a></h4>
+<h4 id="execute-transactions"><a href="/doc/database/execute-transactions">执行交易</a></h4>
 <p>
-<code>sql.Tx</code> exports methods representing transaction-specific semantics,
-including <code>Commit</code> and <code>Rollback</code>, as well as methods you
-use to perform common database operations.
+    <code>sql.Tx</code> 导出表示事务特定语义的方法，包括 <code>Commit</code> 和 <code>Rollback</code>，以及用于执行常见数据库操作的方法。
 </p>
 
-<h4 id="cancel-operations"><a href="/doc/database/cancel-operations">Cancelling in-progress database operations</a></h4>
+<h4 id="cancel-operations"><a href="/doc/database/cancel-operations">取消正在进行的数据库操作</a></h4>
 <p>
-Using <a href="https://pkg.go.dev/context#Context">context.Context</a>, you can
-have your application's function calls and services stop working early and
-return an error when their processing is no longer needed.
+    使用 <a href="https://pkg.go.dev/context#Context">context.Context</a>，
+    您可以让应用程序的函数调用和服务提前停止工作，并在不再需要处理时返回错误。
 </p>
 
-<h4 id="manage-connections"><a href="/doc/database/manage-connections">Managing connections</a></h4>
+<h4 id="manage-connections"><a href="/doc/database/manage-connections">管理连接</a></h4>
 <p>
-For some advanced programs, you might need to tune connection pool parameters
-or work with connections explicitly.
+    对于某些高级程序，您可能需要调整连接池参数或明确处理连接。
 </p>
 
-<h4 id="sql-injection"><a href="/doc/database/sql-injection">Avoiding SQL injection risk</a></h4>
+<h4 id="sql-injection"><a href="/doc/database/sql-injection">避免SQL注入风险</a></h4>
 <p>
-You can avoid an SQL injection risk by providing SQL parameter values as
-<code>sql</code> package function arguments
+    您可以通过提供 SQL 参数值作为 <code>sql</code> 包函数参数来避免 SQL 注入风险
 </p>
 
-<h3 id="developing-modules">Developing modules</h3>
+<h3 id="developing-modules">开发模块</h3>
 
-<h4 id="modules-develop-publish"><a href="/doc/modules/developing">Developing and publishing modules</a></h4>
+<h4 id="modules-develop-publish"><a href="/doc/modules/developing">开发和发布模块</a></h4>
 <p>
-You can collect related packages into modules, then publish the modules for other developers to use. This topic gives an overview of developing and publishing modules.
+    您可以将相关的包收集到模块中，然后发布模块供其他开发人员使用。本主题概述了开发和发布模块。
 </p>
 
-<h4 id="modules-release-workflow"><a href="/doc/modules/release-workflow">Module release and versioning workflow</a></h4>
+<h4 id="modules-release-workflow"><a href="/doc/modules/release-workflow">模块发布和版本控制工作流</a>
+</h4>
 <p>
-When you develop modules for use by other developers, you can follow a workflow that helps ensure a reliable, consistent experience for developers using the module. This topic describes the high-level steps in that workflow.
+    当您开发供其他开发人员使用的模块时，您可以遵循有助于确保可靠、
+    为使用该模块的开发人员提供一致的体验。本主题描述了该工作流中的高级步骤。
 </p>
 
-<h4 id="modules-managing-source"><a href="/doc/modules/managing-source">Managing module source</a></h4>
+<h4 id="modules-managing-source"><a href="/doc/modules/managing-source">管理模块源</a></h4>
 <p>
-When you're developing modules to publish for others to use, you can help ensure that your modules are easier for other developers to use by following the repository conventions described in this topic.
+    当您开发模块以供其他人使用时，您可以通过遵循本主题中描述的存储库约定来帮助确保您的模块更易于其他开发人员使用。
 </p>
 
-<h4 id="modules-major-version"><a href="/doc/modules/major-version">Developing a major version update</a></h4>
+<h4 id="modules-major-version"><a href="/doc/modules/major-version">开发主要版本更新</a></h4>
 <p>
-A major version update can be very disruptive to your module's users because it includes breaking changes and represents a new module. Learn more in this topic.
+    主要版本更新可能会对您模块的用户造成很大的破坏，因为它包括重大更改并代表一个新模块。在此主题中了解更多信息。
 </p>
 
-<h4 id="modules-publishing"><a href="/doc/modules/publishing">Publishing a module</a></h4>
+<h4 id="modules-publishing"><a href="/doc/modules/publishing">发布模块</a></h4>
 <p>
-When you want to make a module available for other developers, you publish it so that it's visible to Go tools. Once you've published the module, developers importing its packages will be able to resolve a dependency on the module by running commands such as <code>go get</code>.
+    当你想让一个模块可供其他开发人员使用时，你可以发布它以便 Go 工具可以看到它。发布模块后，导入其包的开发人员将能够通过运行诸如 <code>go get</code> 之类的命令来解决对模块的依赖关系。
 </p>
 
-<h4 id="modules-version-numbers"><a href="/doc/modules/version-numbers">Module version numbering</a></h4>
+<h4 id="modules-version-numbers"><a href="/doc/modules/version-numbers">模块版本编号</a></h4>
 <p>
-A module's developer uses each part of a module's version number to signal the version’s stability and backward compatibility. For each new release, a module's release version number specifically reflects the nature of the module's changes since the preceding release.
+    模块的开发人员使用模块版本号的每一部分来表示版本的稳定性和向后兼容性。对于每个新版本，模块的版本号特别反映了自上一个版本以来模块更改的性质。
 </p>
 
-<h3 id="faq"><a href="/doc/faq">Frequently Asked Questions (FAQ)</a></h3>
+<h3 id="faq"><a href="/doc/faq">常见问题 (FAQ)</a></h3>
 <p>
-Answers to common questions about Go.
+    关于 Go 的常见问题的解答。
 </p>
 
-<h2 id="references">References</h2>
+<h2 id="references">参考</h2>
 
-<h3 id="pkg"><a href="/pkg/">Package Documentation</a></h3>
+<h3 id="pkg"><a href="/pkg/">包文档</a></h3>
 <p>
-The documentation for the Go standard library.
+    Go 标准库的文档。
 </p>
 
-<h3 id="cmd"><a href="/doc/cmd">Command Documentation</a></h3>
+<h3 id="cmd"><a href="/doc/cmd">命令文档</a></h3>
 <p>
-The documentation for the Go tools.
+    Go 工具的文档。
 </p>
 
-<h3 id="spec"><a href="/ref/spec">Language Specification</a></h3>
+<h3 id="spec"><a href="/ref/spec">语言规范</a></h3>
 <p>
-The official Go Language specification.
+    官方 Go 语言规范。
 </p>
 
-<h3 id="mod"><a href="/ref/mod">Go Modules Reference</a></h3>
+<h3 id="mod"><a href="/ref/mod">Go 模块参考</a></h3>
 <p>
-A detailed reference manual for Go's dependency management system.
+    Go 依赖管理系统的详细参考手册。
 </p>
 
-<h3><a href="/doc/modules/gomod-ref">go.mod file reference</a></h3>
+<h3><a href="/doc/modules/gomod-ref">go.mod 文件参考</a></h3>
 <p>
-Reference for the directives included in a go.mod file.
+    go.mod 文件中包含的指令的参考。
 </p>
 
-<h3 id="go_mem"><a href="/ref/mem">The Go Memory Model</a></h3>
+<h3 id="go_mem"><a href="/ref/mem">Go内存模型</a></h3>
 <p>
-A document that specifies the conditions under which reads of a variable in
-one goroutine can be guaranteed to observe values produced by writes to the
-same variable in a different goroutine.
+    一个文档，它指定了在哪个条件下可以保证在一个 goroutine 中读取变量可以观察到在不同 goroutine 中写入相同变量所产生的值。
 </p>
 
-<h3 id="release"><a href="/doc/devel/release.html">Release History</a></h3>
-<p>A summary of the changes between Go releases.</p>
+<h3 id="release"><a href="/doc/devel/release.html">发布历史</a></h3>
+<p>Go 版本之间更改的摘要。</p>
 
-<h2 id="codewalks">Codewalks</h2>
+<h2 id="codewalks">代码漫步</h2>
 <p>
-Guided tours of Go programs.
+    Go 程序的导览。
 </p>
 <ul>
-<li><a href="/doc/codewalk/functions">First-Class Functions in Go</a></li>
-<li><a href="/doc/codewalk/markov">Generating arbitrary text: a Markov chain algorithm</a></li>
-<li><a href="/doc/codewalk/sharemem">Share Memory by Communicating</a></li>
+    <li><a href="/doc/codewalk/functions">Go 中的一流函数</a></li>
+    <li><a href="/doc/codewalk/markov">生成任意文本：马尔可夫链算法</a></li>
+    <li><a href="/doc/codewalk/sharemem">通过交流分享记忆</a></li>
 </ul>
 
-<h2 id="blog">From the Go Blog</h2>
-<p>The <a href="https://blog.golang.org/">official blog of the Go project</a>, featuring news and in-depth articles by
-the Go team and guests.</p>
+<h2 id="blog">来自 Go 博客</h2>
+<p><a href="https://blog.golang.org/">Go 项目的官方博客</a>，提供 Go 团队和嘉宾的新闻和深度文章。</p>
 
 <h4>Language</h4>
 <ul>
-<li><a href="/blog/json-rpc-tale-of-interfaces">JSON-RPC: a tale of interfaces</a></li>
-<li><a href="/blog/gos-declaration-syntax">Go's Declaration Syntax</a></li>
-<li><a href="/blog/defer-panic-and-recover">Defer, Panic, and Recover</a></li>
-<li><a href="/blog/go-concurrency-patterns-timing-out-and">Go Concurrency Patterns: Timing out, moving on</a></li>
-<li><a href="/blog/go-slices-usage-and-internals">Go Slices: usage and internals</a></li>
-<li><a href="/blog/gif-decoder-exercise-in-go-interfaces">A GIF decoder: an exercise in Go interfaces</a></li>
-<li><a href="/blog/error-handling-and-go">Error Handling and Go</a></li>
-<li><a href="/blog/organizing-go-code">Organizing Go code</a></li>
+    <li><a href="/blog/json-rpc-tale-of-interfaces">JSON-RPC: a tale of interfaces</a></li>
+    <li><a href="/blog/gos-declaration-syntax">Go's Declaration Syntax</a></li>
+    <li><a href="/blog/defer-panic-and-recover">Defer, Panic, and Recover</a></li>
+    <li><a href="/blog/go-concurrency-patterns-timing-out-and">Go Concurrency Patterns: Timing out, moving on</a></li>
+    <li><a href="/blog/go-slices-usage-and-internals">Go Slices: usage and internals</a></li>
+    <li><a href="/blog/gif-decoder-exercise-in-go-interfaces">A GIF decoder: an exercise in Go interfaces</a></li>
+    <li><a href="/blog/error-handling-and-go">Error Handling and Go</a></li>
+    <li><a href="/blog/organizing-go-code">Organizing Go code</a></li>
 </ul>
 
 <h4>Packages</h4>
 <ul>
-<li><a href="/blog/json-and-go">JSON and Go</a> - using the <a href="/pkg/encoding/json/">json</a> package.</li>
-<li><a href="/blog/gobs-of-data">Gobs of data</a> - the design and use of the <a href="/pkg/encoding/gob/">gob</a> package.</li>
-<li><a href="/blog/laws-of-reflection">The Laws of Reflection</a> - the fundamentals of the <a href="/pkg/reflect/">reflect</a> package.</li>
-<li><a href="/blog/go-image-package">The Go image package</a> - the fundamentals of the <a href="/pkg/image/">image</a> package.</li>
-<li><a href="/blog/go-imagedraw-package">The Go image/draw package</a> - the fundamentals of the <a href="/pkg/image/draw/">image/draw</a> package.</li>
+    <li><a href="/blog/json-and-go">JSON and Go</a> - using the <a href="/pkg/encoding/json/">json</a> package.</li>
+    <li><a href="/blog/gobs-of-data">Gobs of data</a> - the design and use of the <a href="/pkg/encoding/gob/">gob</a>
+        package.
+    </li>
+    <li><a href="/blog/laws-of-reflection">The Laws of Reflection</a> - the fundamentals of the <a href="/pkg/reflect/">reflect</a>
+        package.
+    </li>
+    <li><a href="/blog/go-image-package">The Go image package</a> - the fundamentals of the <a
+            href="/pkg/image/">image</a> package.
+    </li>
+    <li><a href="/blog/go-imagedraw-package">The Go image/draw package</a> - the fundamentals of the <a
+            href="/pkg/image/draw/">image/draw</a> package.
+    </li>
 </ul>
 
 <h4>Modules</h4>
 <ul>
-<li><a href="/blog/using-go-modules">Using Go Modules</a> - an introduction to using modules in a simple project.</li>
-<li><a href="/blog/migrating-to-go-modules">Migrating to Go Modules</a> - converting an existing project to use modules.</li>
-<li><a href="/blog/publishing-go-modules">Publishing Go Modules</a> - how to make new versions of modules available to others.</li>
-<li><a href="/blog/v2-go-modules">Go Modules: v2 and Beyond</a> - creating and publishing major versions 2 and higher.</li>
-<li><a href="/blog/module-compatibility">Keeping Your Modules Compatible</a> - how to keep your modules compatible with prior minor/patch versions.</li>
+    <li><a href="/blog/using-go-modules">使用 Go 模块</a> - 在简单项目中使用模块的介绍。
+    </li>
+    <li><a href="/blog/migrating-to-go-modules">迁移到 Go 模块</a> - 将现有项目转换为使用模块。
+    </li>
+    <li><a href="/blog/publishing-go-modules">发布 Go 模块</a> - 如何向其他人提供新版本的模块。
+    </li>
+    <li><a href="/blog/v2-go-modules">Go Modules: v2 and Beyond</a> - 创建和发布主要版本 2 及更高版本。
+    </li>
+    <li><a href="/blog/module-compatibility">Keeping Your Modules Compatible</a> - 如何使您的模块与之前的小补丁版本兼容。
+    </li>
 </ul>
 
 <h4>Tools</h4>
 <ul>
-<li><a href="/doc/articles/go_command.html">About the Go command</a> - why we wrote it, what it is, what it's not, and how to use it.</li>
-<li><a href="/doc/gdb">Debugging Go Code with GDB</a></li>
-<li><a href="/doc/articles/race_detector.html">Data Race Detector</a> - a manual for the data race detector.</li>
-<li><a href="/doc/asm">A Quick Guide to Go's Assembler</a> - an introduction to the assembler used by Go.</li>
-<li><a href="/blog/c-go-cgo">C? Go? Cgo!</a> - linking against C code with <a href="/cmd/cgo/">cgo</a>.</li>
-<li><a href="/blog/godoc-documenting-go-code">Godoc: documenting Go code</a> - writing good documentation for <a href="/cmd/godoc/">godoc</a>.</li>
-<li><a href="/blog/profiling-go-programs">Profiling Go Programs</a></li>
-<li><a href="/blog/race-detector">Introducing the Go Race Detector</a> - an introduction to the race detector.</li>
+    <li><a href="/doc/articles/go_command.html">About the Go command</a> - why we wrote it, what it is, what it's not,
+        and how to use it.
+    </li>
+    <li><a href="/doc/gdb">Debugging Go Code with GDB</a></li>
+    <li><a href="/doc/articles/race_detector.html">Data Race Detector</a> - a manual for the data race detector.</li>
+    <li><a href="/doc/asm">A Quick Guide to Go's Assembler</a> - an introduction to the assembler used by Go.</li>
+    <li><a href="/blog/c-go-cgo">C? Go? Cgo!</a> - linking against C code with <a href="/cmd/cgo/">cgo</a>.</li>
+    <li><a href="/blog/godoc-documenting-go-code">Godoc: documenting Go code</a> - writing good documentation for <a
+            href="/cmd/godoc/">godoc</a>.
+    </li>
+    <li><a href="/blog/profiling-go-programs">Profiling Go Programs</a></li>
+    <li><a href="/blog/race-detector">Introducing the Go Race Detector</a> - an introduction to the race detector.</li>
 </ul>
 
 <h2 id="wiki">Wiki</h2>
 <p>
-The <a href="/wiki">Go Wiki</a>, maintained by the Go community, includes articles about the Go language, tools, and other resources.
+    The <a href="/wiki">Go Wiki</a>, maintained by the Go community, includes articles about the Go language, tools, and
+    other resources.
 </p>
 
 <p id="learn_more">
-See the <a href="/wiki/Learn">Learn</a> page at the <a href="/wiki">Wiki</a>
-for more Go learning resources.
+    See the <a href="/wiki/Learn">Learn</a> page at the <a href="/wiki">Wiki</a>
+    for more Go learning resources.
 </p>
 
 <h2 id="talks">Talks</h2>
@@ -311,35 +302,42 @@ for more Go learning resources.
 
 <h3 id="video_tour_of_go"><a href="https://research.swtch.com/gotour">A Video Tour of Go</a></h3>
 <p>
-Three things that make Go fast, fun, and productive:
-interfaces, reflection, and concurrency. Builds a toy web crawler to
-demonstrate these.
+    Three things that make Go fast, fun, and productive:
+    interfaces, reflection, and concurrency. Builds a toy web crawler to
+    demonstrate these.
 </p>
 
 <h3 id="go_code_that_grows"><a href="https://vimeo.com/53221560">Code that grows with grace</a></h3>
 <p>
-One of Go's key design goals is code adaptability; that it should be easy to take a simple design and build upon it in a clean and natural way. In this talk Andrew Gerrand describes a simple "chat roulette" server that matches pairs of incoming TCP connections, and then use Go's concurrency mechanisms, interfaces, and standard library to extend it with a web interface and other features. While the function of the program changes dramatically, Go's flexibility preserves the original design as it grows.
+    One of Go's key design goals is code adaptability; that it should be easy to take a simple design and build upon it
+    in a clean and natural way. In this talk Andrew Gerrand describes a simple "chat roulette" server that matches pairs
+    of incoming TCP connections, and then use Go's concurrency mechanisms, interfaces, and standard library to extend it
+    with a web interface and other features. While the function of the program changes dramatically, Go's flexibility
+    preserves the original design as it grows.
 </p>
 
 <h3 id="go_concurrency_patterns"><a href="https://www.youtube.com/watch?v=f6kdp27TYZs">Go Concurrency Patterns</a></h3>
 <p>
-Concurrency is the key to designing high performance network services. Go's concurrency primitives (goroutines and channels) provide a simple and efficient means of expressing concurrent execution. In this talk we see how tricky concurrency problems can be solved gracefully with simple Go code.
+    Concurrency is the key to designing high performance network services. Go's concurrency primitives (goroutines and
+    channels) provide a simple and efficient means of expressing concurrent execution. In this talk we see how tricky
+    concurrency problems can be solved gracefully with simple Go code.
 </p>
 
-<h3 id="advanced_go_concurrency_patterns"><a href="https://www.youtube.com/watch?v=QDDwwePbDtw">Advanced Go Concurrency Patterns</a></h3>
+<h3 id="advanced_go_concurrency_patterns"><a href="https://www.youtube.com/watch?v=QDDwwePbDtw">Advanced Go Concurrency
+    Patterns</a></h3>
 <p>
-This talk expands on the <i>Go Concurrency Patterns</i> talk to dive deeper into Go's concurrency primitives.
+    This talk expands on the <i>Go Concurrency Patterns</i> talk to dive deeper into Go's concurrency primitives.
 </p>
 
 <h4 id="talks_more">More</h4>
 <p>
-See the <a href="/talks">Go Talks site</a> and <a href="/wiki/GoTalks">wiki page</a> for more Go talks.
+    See the <a href="/talks">Go Talks site</a> and <a href="/wiki/GoTalks">wiki page</a> for more Go talks.
 </p>
 
 <h2 id="nonenglish">Non-English Documentation</h2>
 
 <p>
-See the <a href="/wiki/NonEnglish">NonEnglish</a> page
-at the <a href="/wiki">Wiki</a> for localized
-documentation.
+    See the <a href="/wiki/NonEnglish">NonEnglish</a> page
+    at the <a href="/wiki">Wiki</a> for localized
+    documentation.
 </p>
