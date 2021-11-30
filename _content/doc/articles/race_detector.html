@@ -5,13 +5,12 @@
 <h2 id="Introduction">Introduction</h2>
 
 <p>
-Data races are among the most common and hardest to debug types of bugs in concurrent systems.
-A data race occurs when two goroutines access the same variable concurrently and at least one of the accesses is a write.
+数据竞争是并发系统中最常见和最难调试的错误类型之一。当两个 goroutine 同时访问同一个变量并且其中至少一个访问是写操作时，就会发生数据竞争。
 See the <a href="/ref/mem/">The Go Memory Model</a> for details.
 </p>
 
 <p>
-Here is an example of a data race that can lead to crashes and memory corruption:
+以下是可能导致崩溃和内存损坏的数据竞争示例：
 </p>
 
 <pre>
